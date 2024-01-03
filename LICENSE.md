@@ -1,6 +1,6 @@
 The agreement grants individuals or entities (referred to collectively as 'users') the permission to use this software, subject to the following terms and conditions:
 
-​    *User: The authorized entity for this software, bound to an individual PC, allowing unlimited connections to databases. This authorization permits both personal and commercial usage. For tailored authorization schemes specific to databases, please contact us.*
+​    *User: The authorized entity for this software is bound to an individual PC. Once authorized, a single PC can connect to an unlimited number of databases, but limited to usage on that specific PC. In certain commercial scenarios where overall authorization for specific databases is required, allowing multiple PC connections, it involves a different authorization framework. Please contact us for further information.*
 
 1. **Free Trial**: New users are entitled to a full-feature free trial of this software for a specified number of days. Upon the trial's expiration, users may opt to continue using the software by subscribing.
 2. **Termination**: Users may cease using the software at any time; however, any subscription fees already paid are non-refundable.
