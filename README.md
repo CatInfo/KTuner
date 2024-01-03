@@ -1,6 +1,6 @@
 # WHAT IS KTUNER
 
-​    KTuner is an expert-level database diagnostic and optimization platform that is comprehensive in functionality, lightweight, driverless, proxyless, and requires no installation. It directly connects to the database with a single click, accurately identifies sources of issues and performance bottlenecks, automatically diagnoses and generates analysis reports along with optimization scripts. KTuner serves as a productivity tool exclusively designed for database administrators (DBAs) and operations experts.
+​    KTuner is an expert-level Oracle diagnostic and optimization platform that is comprehensive in functionality, lightweight, driverless, proxyless, and requires no installation. It directly connects to the database with a single click, accurately identifies sources of issues and performance bottlenecks, automatically diagnoses and generates analysis reports along with optimization scripts. KTuner serves as a productivity tool exclusively designed for database administrators (DBAs) and operations experts.
 
 # KEY FEATURES
 
@@ -17,7 +17,7 @@
 
 # CONFIGURATION
 
-​    On the Windows platform, you can directly run the KTuner.exe file to use KTuner. For more detailed instructions, please refer to the KTuner User Manual.
+​    No configuration required. You can directly run the KTuner.exe file to use KTuner. For more detailed instructions, please refer to the KTuner User Manual.
 
 # COMPATIBILITY
 
@@ -37,8 +37,6 @@
 
 - **Target Database**
 
-​        *Some functions within the PDB might be restricted.*
-
 | Version      | Compatibility    |
 | ------------ | ---------------- |
 | Oracle 11g   | ✅                |
@@ -48,11 +46,19 @@
 | Oracle 21c   | ✅                |
 | MSSQL Server | Upcoming Support |
 
+> Note: Some functions within the PDB might be restricted.
 - **Database Account Permissions**
+    KTuner utilizes existing database accounts to connect to the database and query its performance status. The simplest method is usually by using the 'system' account, or alternatively, you may opt for another account (let's assume the account name is 'ktuner') with the following necessary permissions:
 
 | DB Type | Minimum Permissions            | Optimal Permissions                            |
 | ------- | ------------------------------ | ---------------------------------------------- |
 | Oracle  | CONNECT, SELECT ANY DICTIONARY | CONNECT, SELECT ANY DICTIONARY, ALL PRIVILEGES |
+
+ Grant command:
+ 
+    grant CONNECT to ktuner;
+    grant SELECT ANY DICTIONARY to ktuner;
+    grant ALL PRIVILEGES to ktuner;
 
 # License Statement
 
