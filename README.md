@@ -44,7 +44,7 @@
 | Oracle 18c   | ✅                |
 | Oracle 19c   | ✅                |
 | Oracle 21c   | ✅                |
-| MSSQL Server | Upcoming Support |
+| MS SQL Server | Upcoming Support |
 
 > Note: Some functions within the PDB might be restricted.
 - **Database Account Permissions**
