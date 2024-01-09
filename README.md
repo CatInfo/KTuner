@@ -55,7 +55,7 @@
 | ------- | ------------------------------ | ---------------------------------------------- |
 | Oracle  | CONNECT, SELECT ANY DICTIONARY | CONNECT, SELECT ANY DICTIONARY, ALL PRIVILEGES |
 
-&ensp;&ensp;Sample statements for create & grant command:
+&ensp;&ensp;If you prefer to log in to KTUNER using a newly created database account instead of an existing one, the following are example scripts:
  
     create user ktuner identified by <yourpassword> default tablespace users;
     grant CONNECT to ktuner;
