@@ -55,8 +55,9 @@
 | ------- | ------------------------------ | ---------------------------------------------- |
 | Oracle  | CONNECT, SELECT ANY DICTIONARY | CONNECT, SELECT ANY DICTIONARY, ALL PRIVILEGES |
 
-&ensp;&ensp;Grant command:
+&ensp;&ensp;Sample statements for create & grant command:
  
+    create user ktuner identified by <yourpassword> default tablespace users;
     grant CONNECT to ktuner;
     grant SELECT ANY DICTIONARY to ktuner;
     grant ALL PRIVILEGES to ktuner;
