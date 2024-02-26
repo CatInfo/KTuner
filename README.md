@@ -15,6 +15,16 @@
 - An efficient assistant for APP O&M specialist's tool
 - Widely used in core database management for industries such as banking, telecommunications, securities, healthcare, government, and higher education.
 
+# SCREENSHOTS  
+## Bright Or Dark    
+![image](https://github.com/CatInfo/KTuner/blob/main/images/Style.jpg)
+## Intuitive And Efficient
+![image](https://github.com/CatInfo/KTuner/blob/main/images/UI.jpg)  
+## Highlight Issues  
+![image](https://github.com/CatInfo/KTuner/blob/main/images/OraSql.jpg)  
+## Graphical Presentation  
+![image](https://github.com/CatInfo/KTuner/blob/main/images/MsSql.jpg)
+
 # CONFIGURATION
 
 &ensp;&ensp;No configuration required. You can directly run the KTuner.exe file to use KTuner. For more detailed instructions, please refer to the KTuner User Manual.
